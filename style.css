@@ -12,3 +12,21 @@ body {
     background-position: center;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    #showcase {
+        padding: 0 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-text {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card-text {
+        height: 90px;
+    }
+}
